@@ -11,6 +11,8 @@ import numpy as np
 # Get a reference to webcam #0 (the default one)
 video_capture = cv2.VideoCapture(0)
 
+# Add sample images and make changes accordingly
+
 # Load a sample picture and learn how to recognize it.
 s1_image = face_recognition.load_image_file("sample1.jpg")
 s1_face_encoding = face_recognition.face_encodings(s1_image)[0]
